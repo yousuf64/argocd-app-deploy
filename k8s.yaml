@@ -22,7 +22,7 @@ metadata:
   name: argo-hello
 spec:
   containers:
-  - image: yousuf64/argocd-app:1.0
+  - image: yousuf64/argocd-app:2.0
     name: argo-hello
     ports:
     - containerPort: 8080
